@@ -31,7 +31,10 @@ def extrair_texto_da_imagem(imagem):
             "mime_type": "image/png",
             "data": img_data.getvalue()
         },
-        "Extraia o texto desta imagem, prestando atenção especial a listas e outros elementos de formatação."
+        """Extraia o texto desta imagem, prestando atenção especial a listas e outros elementos de formatação.
+        Formate como markdown, incluindo títulos, listas e formatação de texto.
+        Não inclua informações adicionais ou explicações.
+        """
     ]
 
     response = model.generate_content(contents)
