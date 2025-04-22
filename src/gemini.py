@@ -46,18 +46,19 @@ def salvar_em_markdown(texto, nome_arquivo="receita.md"):
         f.write(texto)
     print(f"\nO texto foi salvo em {nome_arquivo}")
 
-caminho_da_imagem = "pdfs/images/doces_vo_elisa/page_8.png"  # Substitua pelo caminho real do seu arquivo
-imagem = carregar_imagem(caminho_da_imagem)
-if imagem is None:
-    exit()
-texto_extraido = extrair_texto_da_imagem(imagem)
+if __name__ == "__main__":
+    caminho_da_imagem = "pdfs/images/doces_vo_elisa/page_8.png"  # Substitua pelo caminho real do seu arquivo
+    imagem = carregar_imagem(caminho_da_imagem)
+    if imagem is None:
+        exit()
+    texto_extraido = extrair_texto_da_imagem(imagem)
 
-if texto_extraido:
-    print("Texto extraído:\n")
-    print(texto_extraido)
-else:
-    print("Não foi possível extrair o texto da imagem.")
+    if texto_extraido:
+        print("Texto extraído:\n")
+        print(texto_extraido)
+    else:
+        print("Não foi possível extrair o texto da imagem.")
 
 
-if texto_extraido:
-    salvar_em_markdown(texto_extraido)
+    if texto_extraido:
+        salvar_em_markdown(texto_extraido)
