@@ -1,7 +1,0 @@
-PyMuPDF
-pdf2image
-Pillow
-tqdm
-google-cloud-vision
-requests
-google-generativeai

@@ -1,0 +1,30 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #a0522d; /* Sienna */
+  --ifm-color-primary-dark: #8b4513; /* SaddleBrown */
+  --ifm-color-primary-darker: #6b3a0e; /* Darker Brown */
+  --ifm-color-primary-darkest: #4e2c0a; /* Darkest Brown */
+  --ifm-color-primary-light: #cd853f; /* Peru */
+  --ifm-color-primary-lighter: #deb887; /* Burlywood */
+  --ifm-color-primary-lightest: #f5deb3; /* Wheat */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(139, 69, 19, 0.1); /* SaddleBrown with transparency */
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #d2691e; /* Chocolate */
+  --ifm-color-primary-dark: #b35917; /* Darker Chocolate */
+  --ifm-color-primary-darker: #8c4713; /* Even Darker */
+  --ifm-color-primary-darkest: #66350f; /* Darkest */
+  --ifm-color-primary-light: #e9967a; /* Dark Salmon */
+  --ifm-color-primary-lighter: #f4a460; /* Sandy Brown */
+  --ifm-color-primary-lightest: #ffdab9; /* Peach Puff */
+  --docusaurus-highlighted-code-line-bg: rgba(210, 105, 30, 0.3); /* Chocolate with transparency */
+}

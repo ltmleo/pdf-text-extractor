@@ -1,67 +1,41 @@
-# Python PDF to Images and Text Extraction
+# Website
 
-Este projeto permite converter PDFs em imagens e extrair texto das imagens geradas, utilizando Google Cloud Vision ou Gemini.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-## Estrutura do Projeto
+### Installation
 
 ```
-receitas
-├── pdfs
-│   ├── images
-│   │   └── (as imagens geradas serão salvas aqui)
-│   └── sample.pdf
-├── src
-│   ├── main.py
-│   ├── pdf_to_images.py
-│   ├── text_extraction.py
-├── requirements.txt
-└── README.md
+$ yarn
 ```
 
-## Pré-requisitos
+### Local Development
 
-Antes de executar o projeto, você precisa ter o Python instalado em sua máquina. Além disso, é necessário instalar as dependências listadas no arquivo `requirements.txt`.
-
-## Instalação
-
-1. Clone o repositório:
-   ```
-   git clone <URL_DO_REPOSITORIO>
-   cd python-pdf-to-images
-   ```
-
-2. Instale as dependências:
-   ```
-   pip install -r requirements.txt
-   ```
-
-## Uso
-
-### Extração de Imagens
-
-Para converter um PDF em imagens:
 ```
-python src/main.py extract-images --pdf <CAMINHO_DO_PDF> --out <PASTA_DE_SAIDA>
+$ yarn start
 ```
 
-### Extração de Texto
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-Para extrair texto de uma única imagem:
-```
-python src/main.py extract-text --image <CAMINHO_DA_IMAGEM> --method <vision|gemini> [--out <ARQUIVO_DE_SAIDA>]
-```
+### Build
 
-Para extrair texto de todas as imagens em uma pasta:
 ```
-python src/main.py extract-text --images <PASTA_DAS_IMAGENS> --method <vision|gemini> [--out <ARQUIVO_DE_SAIDA>]
+$ yarn build
 ```
 
-Se `--out` não for especificado, o texto será impresso no terminal.
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-## Contribuição
+### Deployment
 
-Sinta-se à vontade para contribuir com melhorias ou correções. Faça um fork do repositório e envie suas alterações.
+Using SSH:
 
-## Licença
+```
+$ USE_SSH=true yarn deploy
+```
 
-Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
