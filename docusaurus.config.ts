@@ -30,11 +30,25 @@ const config: Config = {
     defaultLocale: 'pt-br',
     locales: ['pt-br'],
   },
-
+  themes: [
+      [
+        require.resolve("@easyops-cn/docusaurus-search-local"),
+        /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+        ({
+          hashed: true,
+          docsRouteBasePath: ["/"],
+          docsDir: ["receitas"],
+        }),
+      ],
+  ],
   presets: [
     [
       'classic',
       {
+        gtag: {
+          trackingID: 'G-714QFE3V9G',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: './sidebars.ts',
           path: './receitas',
