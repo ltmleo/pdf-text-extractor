@@ -5,7 +5,7 @@ sidebar_position: 102
 :::danger[NÃO REVISADO]
 A página não foi revisada, portanto pode conter erros de digitação, formatação ou alucinações.
 :::
-```markdown
+
 ## PUDIM DE PÃO (Mole)
 
 *   fatias finas de pão s/ casca
@@ -43,6 +43,6 @@ A página não foi revisada, portanto pode conter erros de digitação, formata�
 *   colocar em 1 pirex retangular untado com oleo
 *   levar à geladeira apertando bem com uma espatula
 *   por 2 horas. Cortar em quadrados e servir
-```
+
 
 ![imagem base](./images/page_102.png)

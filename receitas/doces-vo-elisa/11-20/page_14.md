@@ -5,7 +5,7 @@ sidebar_position: 14
 :::danger[NÃO REVISADO]
 A página não foi revisada, portanto pode conter erros de digitação, formatação ou alucinações.
 :::
-```markdown
+
 - 1 xícara (chá) de pinhão cozido e moído
 - 1 " " " farinha de trigo.
 - 1 colher (sopa) de fermento
@@ -26,6 +26,6 @@ Recheio:
 - ¼ leite (copo)
 
 Passa a ricota no espremedor de batatas, junte o leite. Bata em separado as gemas c/o açúcar até ponto de quindim. Adicione a canela, limão e as claras em neve e mis.
-```
+
 
 ![imagem base](./images/page_14.png)

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Caminho para a pasta de PDFs/Imagens
-PASTA="pdfs/images/doces_vo_elisa"
+PASTA="pdfs/images/salgados-vo-elisa"
 
 # Verifica se a pasta existe
 if [ ! -d "$PASTA" ]; then

@@ -5,7 +5,7 @@ sidebar_position: 112
 :::danger[NÃO REVISADO]
 A página não foi revisada, portanto pode conter erros de digitação, formatação ou alucinações.
 :::
-```markdown
+
 ## Zabaione
 
 *   3 gemas
@@ -35,6 +35,6 @@ no liquidificador:
 *   10 colheres leite pó integral
 
 } Bater na Batideira
-```
+
 
 ![imagem base](./images/page_112.png)

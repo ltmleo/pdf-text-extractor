@@ -5,7 +5,7 @@ sidebar_position: 48
 :::danger[NÃO REVISADO]
 A página não foi revisada, portanto pode conter erros de digitação, formatação ou alucinações.
 :::
-```markdown
+
 ## [Título da receita incompleta]
 
 *   1 colher de fermento royal
@@ -36,6 +36,6 @@ A página não foi revisada, portanto pode conter erros de digitação, formata�
 
 *   forma: caramelo - creme - bananas - suspiro
 *   levar ao forno p/ corar.
-```
+
 
 ![imagem base](./images/page_48.png)

@@ -5,8 +5,10 @@
 /build
 
 # Generated files
+pdfs
 .docusaurus
 .cache-loader
+.venv
 
 # Misc
 .DS_Store

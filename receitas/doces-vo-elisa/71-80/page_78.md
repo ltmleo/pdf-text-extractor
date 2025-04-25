@@ -5,7 +5,7 @@ sidebar_position: 78
 :::danger[NÃO REVISADO]
 A página não foi revisada, portanto pode conter erros de digitação, formatação ou alucinações.
 :::
-```markdown
+
 ## Creme
 
 -   1 l. leite
@@ -46,6 +46,6 @@ servir sorvete.
 
 Juntar o suco de
 cer bem o açúcar.
-```
+
 
 ![imagem base](./images/page_78.png)

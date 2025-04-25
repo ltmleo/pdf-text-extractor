@@ -17,8 +17,9 @@ const FeatureList: FeatureItem[] = [
     link: '/receitas/doces-vo-elisa',
   },
   {
-    title: 'Salgados - Vó Elisa (em breve)',
-    Svg: require('@site/static/img/book-closed-svgrepo-com-grey.svg').default,
+    title: 'Salgados - Vó Elisa',
+    Svg: require('@site/static/img/book-closed-svgrepo-com-red.svg').default,
+    link: '/receitas/salgados-vo-elisa',
   },
   {
     title: 'Receitas - Vó Cida (em breve)',

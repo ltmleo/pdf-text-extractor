@@ -50,7 +50,7 @@ def extract_text_with_gemini(image_path):
 
         contents = [
             {"mime_type": "image/png", "data": img_data.getvalue()},
-            """Extraia o texto desta imagem, prestando atenção especial a listas e outros elementos de formatação.
+            """Extraia o texto desta imagem de uma pagina de receita, prestando atenção especial a listas e outros elementos de formatação.
             Formate como markdown, incluindo títulos, listas e formatação de texto.
             Organize cada seção com marcadores apropriados (## para títulos, ### para subtítulos, etc.).
             Não se esqueça de incluir listas quando existirem (lista de ingredientes, passos, etc.).

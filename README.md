@@ -2,6 +2,8 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+https://www.svgrepo.com/svg/513272/book-closed?edit=true
+
 ### Installation
 
 ```

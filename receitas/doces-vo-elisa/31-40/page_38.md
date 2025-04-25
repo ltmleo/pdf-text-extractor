@@ -5,7 +5,7 @@ sidebar_position: 38
 :::danger[NÃO REVISADO]
 A página não foi revisada, portanto pode conter erros de digitação, formatação ou alucinações.
 :::
-```markdown
+
 liquidificador. Separar bater o óleo e os
 ovos juntos. Depois o açucar e o trigo
 e por ultimo Royal e o creme de
@@ -33,6 +33,6 @@ o rolo e põe o recheio. Deixa crescer.
 
 Manteiga derretida c/ açucar e polpica
 c/ bastante côco ralado ou cocada.
-```
+
 
 ![imagem base](./images/page_38.png)

@@ -5,7 +5,7 @@ sidebar_position: 95
 :::danger[NÃO REVISADO]
 A página não foi revisada, portanto pode conter erros de digitação, formatação ou alucinações.
 :::
-```markdown
+
 ## ALMENDRADO
 
 **Ingredientes:**
@@ -54,6 +54,6 @@ Para receitas ou informações, escreva para o Centro Nestlé de Informação ao
 Bata no liquidificador SÓ os líquidos
 Despeje em assadeira untada e enfarinhada
 B
-```
+
 
 ![imagem base](./images/page_95.png)
